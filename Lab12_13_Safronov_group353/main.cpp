@@ -26,8 +26,8 @@ struct TableOfValues
 vector <TableOfValues> CalculateFunctions(double& a, double& b, unsigned  int& N)
 {
     /*
-    "1) u(i)=5*i^2*cos(0.1*i)
-    "2) u(i)=i^3*exp(-0.3*i)
+    1) u(i)=5*i^2*cos(0.1*i)
+    2) u(i)=i^3*exp(-0.3*i)
     3) u(i)=4*i*sqrt(i)*exp(-sqrt(i))
    */
     vector <TableOfValues> myResults(N+1);
