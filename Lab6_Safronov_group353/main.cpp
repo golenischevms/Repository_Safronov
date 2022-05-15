@@ -45,10 +45,6 @@ void СhekingPoints()
     cout << "3. G(1,2): " << boolalpha << IsPointInSquare(1,2) << " "<< IsPointInTriangle(1,2) << endl;
 }
 
-/*    cout <<
- *    "1. y(x)=x при x>1, y(x)=1+x при x<=1 " << endl; "2. a(x,y)=y/x при x>0 и y>0, a(x,y)=x при x>0 и y<=0," << endl;
-    cout << "   a(x,y)=xy при x<=0 и y>0, a(x,y)=y при x<=0 и y<=0" << endl;*/
-
 double Fun1(double& x)
 {
    double F=0;
